@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 a {
     text-decoration: none;
    border-radius: 10px;
@@ -6,6 +10,9 @@ a {
    color: black;
    border: solid black;
    font-family: Georgia;
+   display: inline-block;
+   margin-top: 15px;
+   transition: 0.3s;
  }
 
 header img{
@@ -20,7 +27,7 @@ header{
 
 main h1{
        text-align: center;
-       color: coral;
+       color: seashell;
        font-family: Tahoma;
 }
 
@@ -31,4 +38,17 @@ footer h2 {
 .contacts{
        text-align: center;
        font-family: sans-serif;
+       font-size: 14px;
+       border: 2px solid red;
+       background-color: seashell;
+       color: teal;
+}
+
+body {
+background-color: sandybrown;
+}
+
+nav a:hover {
+         font-size: 20px;
+          transform: scale(1.1);
 }
